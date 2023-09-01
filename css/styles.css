@@ -85,3 +85,37 @@ body{
     color: var(--Very-dark-cyan);
 }
 
+@media screen and (max-width: 768px) {
+    .orange{
+        border-radius: 5px 5px 0 0;
+    }
+    
+    .green{
+        border-radius: 0 0 5px 5px;
+    }
+
+    .columns{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .orange{
+        border-radius: 5px 5px 0 0;
+    }
+    
+    .green{
+        border-radius: 0 0 5px 5px;
+    }
+
+    .columns{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
+    }
+}
