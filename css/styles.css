@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+
+    --ff-lexand: 'Lexend Deca', sans-serif;
+    --ff-big-shoulder: 'Big Shoulders Display', cursive;
+}
+
+body{
+    background: var(--Very-light-gray);
+    font-family: var(--ff-lexand);
+}
+
+.main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.columns{
+    display: flex;
+    width: 60vw;
+}
+
+.orange{
+    background: var(--Bright-orange);
+    border-radius: 5px 0 0 5px;
+}
+
+.blue{
+    background: var(--Dark-cyan);
+}
+
+.green{
+    background: var(--Very-dark-cyan);
+    border-radius: 0 5px 5px 0;
+}
+
+.column{
+    color: var(--Very-light-gray);
+    padding: 2rem;
+}
+
+.column__title{
+    font-family: var(--ff-big-shoulder);
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+
+.column__para{
+    line-height: 25px;
+    margin: 20px 0 60px 0;
+    font-size: 15px;
+}
+
+.column__button{
+    background: var(--Very-light-gray);
+    border: 2px solid var(--Very-light-gray);
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.column__button:hover{
+    background: transparent;
+    color: var(--Very-light-gray);
+}
+
+.button__orange{
+    color: var(--Bright-orange);
+}
+
+.button__blue{
+    color: var(--Dark-cyan);
+}
+
+.button__green{
+    color: var(--Very-dark-cyan);
+}
+
